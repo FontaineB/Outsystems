@@ -1,0 +1,80 @@
+{
+	"id": 12345678901,
+	"creationDate": "2021-01-30T08:30:00Z",
+	"creationUser": "OGBP4399",
+	"creationUserFirstName": "John",
+	"creationUserSurname": "Smith",
+	"countryCode": "FR",
+	"brand": "EP",
+	"insuranceType": "COI",
+	"insuranceOptions": "THW;CDW;WWI",
+	"contractId": 12345678,
+	"contractStatus": "A",
+	"claim": {
+		"claimNumber": "21-1313213112",
+		"isClaimable": true
+	},
+	"rentalAgreement": {
+		"id": 2345678901,
+		"pickupStation": "LHRT01",
+		"dropoffStation": "CDGT02",
+		"pickupStationName": "London Heathrow Airport",
+		"dropoffStationName": "Paris Aéroport Charles de Gaulle T2"
+	},
+	"movement": {
+		"pickupStation": "LHRT01",
+		"dropoffStation": "CDGT02",
+		"pickupStationName": "London Heathrow Airport",
+		"dropoffStationName": "Paris Aéroport Charles de Gaulle T2",
+		"pickupDate": "2021-01-30T08:30:00Z",
+		"dropoffDate": "2021-01-30T08:30:00Z"
+	},
+	"vehicle": {
+		"registrationNumber": "AJ60URG",
+		"makeCode": 12,
+		"makeName": "Peugeot",
+		"modelCode": 123456,
+		"modelName": "Peugeot 406",
+		"acriss": "CDMR"
+	},
+	"accident": {
+		"incidentCode": "EV",
+		"incidentDescription": "DAMAGE TO EC VEHICLE, NO OTHER DAMAGE",
+		"status": "C",
+		"date": "2021-01-30T08:30:00Z",
+		"locationLine1": "3, rue de la République qqqqqq",
+		"locationLine2": "Chez John",
+		"locationLine3": "Chez lui",
+		"locationLine4": "75018 Paris",
+		"circumstanceLine1": "Collision violente qqqqqqqqqqq",
+		"circumstanceLine2": "Gros degats",
+		"circumstanceLine3": "Tres Gros degats",
+		"circumstanceLine4": "Tres tres Gros"
+	},
+	"damage": [{
+			"sequence": "12345678901",
+			"areaCode": "INT",
+			"areaDescription": "Internal",
+			"elementCode": "1108",
+			"elementDescription": "Alloy wheel",
+			"severityCode": "14",
+			"severityDescription": "14-Damaged"
+		},
+		{
+			"sequence": "12345678902",
+			"areaCode": "INT",
+			"areaDescription": "Internal",
+			"elementCode": "1108",
+			"elementDescription": "Alloy wheel",
+			"severityCode": "14",
+			"severityDescription": "14-Damaged"
+		}
+	],
+	"driver": {
+		"id": 80643859,
+		"firstName": "John",
+		"lastName": "Smith",
+		"licenseNumber": "123456ffff",
+		"email": "toto@toto.fr"
+	}
+}
