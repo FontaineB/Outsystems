@@ -1,9 +1,9 @@
 {
 	"id": 900012687844,
-	"creationDate": "2021-09-29T08:30:00Z",
-	"creationUser": "OGBP4399",
-	"creationUserFirstName": "John",
-	"creationUserSurname": "Smith",
+	"creationDate": "2021-09-29T10:00:00Z",
+	"creationUser": "RGBP2209",
+	"creationUserFirstName": "MUNTASIR",
+	"creationUserSurname": "SMITH",
 	"ADRcountryCode": "GB",
 	"brand": "EP",
 	"insuranceType": "COI",
@@ -24,10 +24,15 @@
 		"externalReferenceNumberRequired":False,
 		"externelReferenceNumber": "",
 		"complete": True,
-		"numberOfUnsignedDamage": 1,
-		
+		"numberOfUnsignedDamage": 1
 	},
 	"rentalAgreement": {
+		"id": 152808937,
+		"brand": "EP",
+		"productCode": "MOCOI1GB",
+		"productDescription": "MOTAB COI CARS & VANS-SPECIAL",
+		"MOP": "BHPO;VI",
+		"BA": 23674537,
 		"COStationCode": "LPLC01",
 		"CIStationCode": "LPLC01",
 		"COStationName": "Liverpool City",
@@ -36,20 +41,25 @@
 		"CIDate": "2021-10-04T08:30:00Z",
 		"insuranceOptinTaken": "COI;COI-LDO;LAF"
 	},
+	"contractInformation": {
+		
 	"vehicle": {
 		"registrationNumber": "AJGGRG",
 		"makeCode": "VW",
 		"makeName": "Volkswagen",
 		"modelDescription": "VW ARTEON 2.0 R-LINE TDI 150PS DSG",
+		"vehicleType": "CR",
+		"vehicleactualAcrissCode":"PDAR",
+		"vehiclechargedAcrissCode": "SDAR",
 		"vehicleRegistrationDate": "2021-05-29T08:30:00Z",
-		"vehicleChassisNumber": "WVWZZZ3HZME005354"
+		"vehicleChassisNumber": "WVWWZZ3HZME005354"
 	},
 	"accident": {
 		"accidentCode": "EV",
 		"accidentDescription": "DAMAGE TO EC VEHICLE, NO OTHER DAMAGE",
 		"accidentCircumstance": "VEHICLE DRIVEN WITHOUT DPF REGEN BEING CARRIED OUT"
 		"LDESLDASValue": "GBP 0.00",
-		"date": "2021-09-29T08:30:00Z",
+		"date": "2021-09-29T00:00:00Z",
 		},
 	"damage": [{
 			"sequence": "3292258",
