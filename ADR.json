@@ -63,8 +63,10 @@
 		contractName : "MOTA - CONTRACT",
 	},
 	"thirdPartyInformation": {
-		thirdPartyRegistrationNumber : "",
-		
+		"thirdPartyRegistrationNumber" : "",
+		"vehicleColor" : "",
+		"thirdPartyDescription" : ""
+	},	
 	"damage": [{
 			"sequence": "3292258",
 			"areaDescription": "Mechanical",
@@ -73,6 +75,7 @@
 			"ElementCode":"557",
 			"areaCode": "MEC",
 			"severityDescription": "Broken",
+			"Repaired": False,
 			"acknowledgment": "CNP"
 	},
 ],
@@ -112,15 +115,15 @@
 	},
 	
 	"vehicle": {
-		"registrationNumber": "AJGGRG",
+		"registrationNumber": "AJSDLBK",
 		"makeCode": "VW",
 		"makeName": "Volkswagen",
 		"modelDescription": "VW ARTEON 2.0 R-LINE TDI 150PS DSG",
 		"vehicleType": "CR",
-		"vehicleactualAcrissCode":"PDAR",
-		"vehiclechargedAcrissCode": "SDAR",
-		"vehicleRegistrationDate": "2021-05-29T08:30:00Z",
-		"vehicleChassisNumber": "WVWWZZ3HZME005354"
+		"vehicleactualAcrissCode":"DDMM",
+		"vehiclechargedAcrissCode": "CDMR",
+		"vehicleRegistrationDate": "2021-07-28",
+		"vehicleChassisNumber": "WVSWSZCDZMW131450"
 	},
 	"accident": {
 		"accidentCode": "EV",
@@ -140,35 +143,39 @@
 		"CIStationCode": "LPLC01",
 		"COStationName": "Liverpool City",
 		"CIStationName": "Liverpool City",
-		"CODate": "2021-09-11T08:30:00Z",
-		"CIDate": "2021-10-04T08:30:00Z",
+		"CODate": "2021-11-10T08:30:00Z",
+		"CIDate": "2021-11-25T08:30:00Z",
 		"insuranceOptinTaken": "COI;COI-LDO;LAF"
 	},
 	"contractInformation": {
-		contractId : 59596291, 
-		contractName : "MOTA - CONTRACT",
+		contractId : 55405652, 
+		contractName : "THOMAS CREWS",
 	},
 	"thirdPartyInformation": {
 		thirdPartyRegistrationNumber : "",
-		
-	"damage": [{
-			"sequence": "3292258",
-			"areaDescription": "Mechanical",
-			"elementDescription": "Cooling unit",
-			"severityCode": "0",
-			"ElementCode":"557",
-			"areaCode": "MEC",
-			"severityDescription": "Broken",
+		"vehicleColor" : "",
+		"thirdPartyDescription" : ""
+	},		
+	"damage": [{		
+			"sequence": "3363344",
+			"areaDescription": "Left Side",
+			"elementDescription": "Front Alloy",
+			"severityCode": "8",
+			"ElementCode":"308",
+			"areaCode": "LS",
+			"severityDescription": "Scuffed",
+			"Repaired": False,
 			"acknowledgment": "CNP"
 	},
 		{
-			"sequence": "3292258",
-			"areaDescription": "Mechanical",
-			"elementDescription": "Cooling unit",
-			"severityCode": "0",
-			"ElementCode":"557",
-			"areaCode": "MEC",
-			"severityDescription": "Broken",
+			"sequence": "3363347",
+			"areaDescription": "Right Side",
+			"elementDescription": "Front Alloy",
+			"severityCode": "8",
+			"ElementCode":"408",
+			"areaCode": "RS",
+			"severityDescription": "Scuffed",
+			"Repaired": False,
 			"acknowledgment": "CNP"
 		}
 	],
