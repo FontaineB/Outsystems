@@ -1,17 +1,18 @@
 {
 	"id": 12345678901,
-	"creationDate": "2021-01-30T08:30:00Z",
+	"creationDate": "2021-09-29T08:30:00Z",
 	"creationUser": "OGBP4399",
 	"creationUserFirstName": "John",
 	"creationUserSurname": "Smith",
-	"ADRclaimcountryCode": "FR",
+	"ADRcountryCode": "GB",
 	"brand": "EP",
 	"insuranceType": "COI",
-	"insuranceOptions": "THW;CDW;WWI",
-	"contractId": 12345678,
-	"contractStatus": "A",
+	"insuranceOptions": "",
+	"contractId": "",
+	"contractStatus": "",
 	"claim": {
 		"claimNumber": "21-02088761",
+		"createdBy": "RisKAppli Interface",
 		"status": "New",
 		"substatus": "",
 		"assessment": "Claimable",
@@ -27,27 +28,21 @@
 		
 	},
 	"rentalAgreement": {
-		"id": 2345678901,
-		"pickupStation": "LHRT01",
-		"dropoffStation": "CDGT02",
-		"pickupStationName": "London Heathrow Airport",
-		"dropoffStationName": "Paris Aéroport Charles de Gaulle T2"
-	},
-	"movement": {
-		"pickupStation": "LHRT01",
-		"dropoffStation": "CDGT02",
-		"pickupStationName": "London Heathrow Airport",
-		"dropoffStationName": "Paris Aéroport Charles de Gaulle T2",
-		"pickupDate": "2021-01-30T08:30:00Z",
-		"dropoffDate": "2021-01-30T08:30:00Z"
+		"COStationCode": "LPLC01",
+		"CIStationCode": "LPLC01",
+		"COStationName": "Liverpool City",
+		"CIStationName": "Liverpool City",
+		"CODate": "2021-08-11T08:30:00Z",
+		"CIDate": "2021-09-04T08:30:00Z",
+		"insuranceOptinTaken": "COI;COI-LDO;LAF"
 	},
 	"vehicle": {
-		"registrationNumber": "AJ60URG",
-		"makeCode": 12,
-		"makeName": "Peugeot",
-		"modelCode": 123456,
-		"modelName": "Peugeot 406",
-		"acriss": "CDMR"
+		"registrationNumber": "AJGGRG",
+		"makeCode": "VW",
+		"makeName": "Volkswagen",
+		"modelDescription": "VW ARTEON 2.0 R-LINE TDI 150PS DSG",
+		"vehicleRegistrationDate": "2021-05-29T08:30:00Z",
+		"vehicleChassisNumber": "WVWZZZ3HZME005354"
 	},
 	"accident": {
 		"incidentCode": "EV",
@@ -56,29 +51,31 @@
 		"date": "2021-01-30T08:30:00Z",
 		},
 	"damage": [{
-			"sequence": "12345678901",
-			"areaCode": "INT",
-			"areaDescription": "Internal",
-			"elementCode": "1108",
-			"elementDescription": "Alloy wheel",
-			"severityCode": "14",
-			"severityDescription": "14-Damaged"
-		},
+			"sequence": "3292258",
+			"areaDescription": "Mechanical",
+			"elementDescription": "Cooling unit",
+			"severityCode": "0",
+			"ElementCode":"557",
+			"areaCode": "MEC",
+			"severityDescription": "Broken",
+			"acknowledgment": "CNP"
+	},
 		{
-			"sequence": "12345678902",
-			"areaCode": "INT",
-			"areaDescription": "Internal",
-			"elementCode": "1108",
-			"elementDescription": "Alloy wheel",
-			"severityCode": "14",
-			"severityDescription": "14-Damaged"
+			"sequence": "3292258",
+			"areaDescription": "Mechanical",
+			"elementDescription": "Cooling unit",
+			"severityCode": "0",
+			"ElementCode":"557",
+			"areaCode": "MEC",
+			"severityDescription": "Broken",
+			"acknowledgment": "CNP"
 		}
 	],
 	"driver": {
 		"id": 80643859,
-		"firstName": "John",
-		"lastName": "Smith",
+		"firstName": "Beatrice",
+		"lastName": "Fontaine",
 		"licenseNumber": "123456ffff",
-		"email": "toto@toto.fr"
+		"email": "beatrice.fontaine@europcar.com"
 	}
 }
